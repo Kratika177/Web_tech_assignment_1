@@ -1,0 +1,143 @@
+#cus div{
+    width: 50%;
+  }
+  @media only screen and (max-width:990px) {
+    
+    #cus{
+      flex-direction: column-reverse;
+      text-align: center;
+      width: 100%;
+    }
+    #cus img{
+      width: 80vw;
+    }
+    #cus h1{
+      width: 80vw;
+    }
+    #cus p{
+      width: 80vw;
+    }
+    #cus button{
+      width: 80vw;
+
+    }
+  }
+  @keyframes grow {
+    0%{
+      width:40%;
+    }
+    10%{
+      width:40%;
+    }
+    20%{
+      width:40%;
+    }
+    30%{
+      width:50%;
+    }
+    40%{
+      width:60%;
+    }
+    50%{
+      width:70%;
+    }
+    60%{
+      width:80%;
+    }
+    70%{
+      width:90%;
+    }
+    80%{
+      width:100%;
+    }
+  
+  }
+  #custom-button{
+          background-color:#c01313; 
+          color:white; 
+          border-radius: 1.5em; 
+          border:0px; 
+          margin-top: 2em;
+          width: 100%;
+          font-size: medium;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          animation-name: grow;
+          animation-duration: 1s;
+        }
+  #custom-button:hover{
+            background-color: white;
+            color:#920114;
+            border: 1px solid #920114;
+            width: 100%;
+          }
+          .footer{
+            background-color: #262f33;
+            padding: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: medium;
+            text-align: center;
+          }
+          .cu a{
+            color: #c01313;
+          }
+          .cu:hover{
+              color:#37474f;
+          }
+.about h1{
+  font-weight: bolder;
+  padding: 20px;
+  color:#920114;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about p{
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item{
+  margin: 5%;
+  padding: 10%;
+  width: 40%;
+}
+.btn1{
+  margin: 3%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 136%;
+  width: 100%;
+  color:white;
+  background-color: #920114;
+  border:1px solid #920114;
+  padding: 5px;
+}
+.btn1:hover{
+  color:#920114;
+  border:1px solid #920114;
+  background-color: white;
+}
+.item input{
+  font-size: 136%;
+  margin: 3%;
+  text-align: center;
+  border-radius: 10px;
+}
+#heading{
+  font-size: 2em;
+  color:#920114;
+  margin: 20px;
+  text-align: center;
+}
+.items{
+  font-size: 1.2em;
+  color:#920114;
+  margin: 20px;
+
+}
